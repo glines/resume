@@ -1,0 +1,269 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[letterpaper]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Jonathan}{Glines}{ \urlstyle{same}\href{http://glines.net}{glines.net}\\
+\href{mailto:jonathan@glines.net}{jonathan@glines.net}
+| \href{mailto:glinjona@isu.edu}{glinjona@isu.edu}
+| 208.557.4299 (voicemail)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Idaho State University}
+\descript{BS in Computer Science}
+\location{Dec 2016 | Pocatello, ID}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Website: \href{http://glines.net}{\bf glines.net} \\
+Github: \href{https://github.com/glines}{\bf github.com/glines} \\
+Medium: \href{https://medium.com/@glines}{\bf medium.com/@glines} \\
+IRC: \href{irc://freenode.net/glines}{\bf glines on Freenode}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+Compilers \\
+Computer Graphics \\
+Digital Systems \\
+Operating Systems \\
+Numerical Analysis \\
+Linear Algebra
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+C \textbullet{}
+C++ \textbullet{}
+\LaTeX \textbullet{}
+Makefile \textbullet{}
+Perl \\
+\location{Over 1000 lines:}
+C\# \textbullet{}
+\textsc{Matlab} \textbullet{}
+PHP \textbullet{}
+Python \textbullet{}
+Shell \\
+\location{Experienced:}
+Ansible \textbullet{}
+CMake \textbullet{}
+Git \textbullet{}
+Linux \textbullet{}
+MPI \textbullet{}
+OpenGL \textbullet{}
+Visual Studio \\
+\location{Familiar:}
+Android \textbullet{}
+AWS \textbullet{}
+DirectX \textbullet{}
+Mercurial \textbullet{}
+MSSQL \textbullet{}
+MySQL \textbullet{}
+OpenCL \textbullet{}
+PostgreSQL \textbullet{}
+UE4 \textbullet{}
+VR
+\sectionsep
+\subsection{Languages}
+English (Native) \\
+Japanese (Intermediate)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Idaho State University}
+\descript{| Undergraduate Research Assistant}
+\location{2015-2016 | Pocatello, ID}
+Worked with \textbf{\href{http://www2.cose.isu.edu/~edwajohn/}{John Edwards}}
+exploring computational geometry algorithms as applied to generalized Voronoi
+diagrams. Implemented several isosurface extraction algorithms (including
+marching cubes) in C.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{ON Semiconductor}
+\descript{| Manufacturing IT Intern}
+\location{Summer 2014 | Pocatello, ID}
+Automated migration to Mercurial version control using Python and Ansible
+\sectionsep
+
+\runsubsection{Idaho State University}
+\descript{| Assistant IT Programmer}
+\location{2011-2014 | Pocatello, ID}
+Installed Ubuntu Linux remotely on a 100+ node computer cluster using PXE boot.
+Wrote a Perl CGI application to manage student examination times.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Awards} 
+%\begin{tightemize}
+%\item Dean's List Fall 2015 semester
+%\end{tightemize}
+%\begin{tabular}{rll}
+%2015	n& top 52/2500  & KPCB Engineering Fellow\\
+%2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+%2013	     & National  & Jump Trading Challenge Finalist\\
+%2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+%2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+%2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+%\end{tabular}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Publications} 
+%\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+%\bibliographystyle{abbrv}
+%\bibliography{publications}
+%\nocite{*}
+
+\section{Extracurricular}
+\runsubsection{ISU IgniteCS Group}
+\descript{| Elected Upperclassmen Project Leader}
+\location{Fall 2016 | Pocatello, ID}
+Mentored local high school students interested in Computer Science while
+developing a workshop curriculum using Shadertoy.
+\sectionsep
+
+\runsubsection{ISU Anime Club}
+\descript{| Elected Treasurer and President}
+\location{2014 | Pocatello, ID}
+\sectionsep
+
+\runsubsection{FIRST Robotics Competition}
+\descript{| Team Haywire 1569}
+\location{2008 | Pocatello, ID}
+Programmed robot microcontrollers in C.
+\sectionsep
+
+\section{Open Source}
+\runsubsection{NixOS}
+\descript{| Purely Functional Linux Distribution}
+\location{\href{https://nixos.org}{https://nixos.org} | \href{https://github.com/glines/nixrc}{https://github.com/glines/nixrc}}
+Contributes occasional patches for new software packages. Experiments with
+automated deployment techniques.
+\sectionsep
+
+\runsubsection{libmc}
+\descript{| Isosurface Extraction Library}
+\location{\href{https://github.com/glines/libmc}{https://github.com/glines/libmc}}
+Personal project building upon undergraduate research.
+\sectionsep
+
+\section{References}
+%Upon request.
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item[]\textbf{John Edwards}, Assistant Professor of Computer Science, Idaho State University, {\bf (385) 207-8331} \\
+\item[]\textbf{Ben Nickell}, High Performance Computing Systems Administrator, Idaho National Laboratory, {\bf (208) 317-4259}
+\end{tightemize}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
