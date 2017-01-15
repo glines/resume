@@ -45,7 +45,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\documentclass[]{deedy-resume-openfont}
+\documentclass[letterpaper]{deedy-resume-openfont}
 \usepackage{fancyhdr}
  
 \pagestyle{fancy}
@@ -65,8 +65,10 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+\namesection{Jonathan}{Glines}{ \urlstyle{same}\href{http://glines.net}{glines.net}\\
+\href{mailto:jonathan@glines.net}{jonathan@glines.net}
+| \href{mailto:glinjona@isu.edu}{glinjona@isu.edu}
+| 208.557.4299 (voicemail)
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -83,22 +85,9 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
-\sectionsep
-
-\subsection{Cornell University}
+\subsection{Idaho State University}
 \descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
-\sectionsep
-
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+\location{Dec 2016 | Pocatello, ID}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,37 +95,22 @@ Major GPA: 3.9 / 4.0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+Website: \href{http://glines.net}{\bf glines.net} \\
+Github: \href{https://github.com/glines}{\bf github.com/glines} \\
+Medium: \href{https://medium.com/@glines}{\bf medium.com/@glines} \\
+IRC: \href{irc://freenode.net/glines}{\bf glines on Freenode}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
-
-\subsection{Undergraduate}
-Information Retrieval \\
+Compilers \\
+Computer Graphics \\
+Digital Systems \\
 Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+Numerical Analysis \\
+Linear Algebra
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -145,13 +119,40 @@ Unix Tools and Scripting \\
 \section{Skills}
 \subsection{Programming}
 \location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+C \textbullet{}
+C++ \textbullet{}
+\LaTeX \textbullet{}
+Makefile \textbullet{}
+Perl \\
 \location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+C\# \textbullet{}
+\textsc{Matlab} \textbullet{}
+PHP \textbullet{}
+Python \textbullet{}
+Shell \\
+\location{Experienced:}
+Ansible \textbullet{}
+CMake \textbullet{}
+Git \textbullet{}
+Linux \textbullet{}
+MPI \textbullet{}
+OpenGL \textbullet{}
+Visual Studio \\
 \location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+Android \textbullet{}
+AWS \textbullet{}
+DirectX \textbullet{}
+Mercurial \textbullet{}
+MSSQL \textbullet{}
+MySQL \textbullet{}
+OpenCL \textbullet{}
+PostgreSQL \textbullet{}
+UE4 \textbullet{}
+VR
 \sectionsep
+\subsection{Languages}
+English (Native) \\
+Japanese (Intermediate)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -164,80 +165,105 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
-\sectionsep
-
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
-\begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
-\sectionsep
-
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
-\begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+\runsubsection{Idaho State University}
+\descript{| Undergraduate Research Assistant}
+\location{2015-2016 | Pocatello, ID}
+Worked with \textbf{\href{http://www2.cose.isu.edu/~edwajohn/}{John Edwards}}
+exploring computational geometry algorithms as applied to generalized Voronoi
+diagrams. Implemented several isosurface extraction algorithms (including
+marching cubes) in C.
 \sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{ON Semiconductor}
+\descript{| Manufacturing IT Intern}
+\location{Summer 2014 | Pocatello, ID}
+Automated migration to Mercurial version control using Python and Ansible
+\sectionsep
+
+\runsubsection{Idaho State University}
+\descript{| Assistant IT Programmer}
+\location{2011-2014 | Pocatello, ID}
+Installed Ubuntu Linux remotely on a 100+ node computer cluster using PXE boot.
+Wrote a Perl CGI application to manage student examination times.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
-\sectionsep
+%\section{Awards} 
+%\begin{tightemize}
+%\item Dean's List Fall 2015 semester
+%\end{tightemize}
+%\begin{tabular}{rll}
+%2015	n& top 52/2500  & KPCB Engineering Fellow\\
+%2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+%2013	     & National  & Jump Trading Challenge Finalist\\
+%2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+%2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+%2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+%\end{tabular}
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
+%\section{Publications} 
+%\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+%\bibliographystyle{abbrv}
+%\bibliography{publications}
+%\nocite{*}
+
+\section{Extracurricular}
+\runsubsection{ISU IgniteCS Group}
+\descript{| Elected Upperclassmen Project Leader}
+\location{Fall 2016 | Pocatello, ID}
+Mentored local high school students interested in Computer Science while
+developing a workshop curriculum using Shadertoy.
+\sectionsep
+
+\runsubsection{ISU Anime Club}
+\descript{| Elected Treasurer and President}
+\location{2014 | Pocatello, ID}
+\sectionsep
+
+\runsubsection{FIRST Robotics Competition}
+\descript{| Team Haywire 1569}
+\location{2008 | Pocatello, ID}
+Programmed robot microcontrollers in C.
+\sectionsep
+
+\section{Open Source}
+\runsubsection{NixOS}
+\descript{| Purely Functional Linux Distribution}
+\location{\href{https://nixos.org}{https://nixos.org} | \href{https://github.com/glines/nixrc}{https://github.com/glines/nixrc}}
+Contributes occasional patches for new software packages. Experiments with
+automated deployment techniques.
+\sectionsep
+
+\runsubsection{libmc}
+\descript{| Isosurface Extraction Library}
+\location{\href{https://github.com/glines/libmc}{https://github.com/glines/libmc}}
+Personal project building upon undergraduate research.
+\sectionsep
+
+\section{References}
+%Upon request.
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item[]\textbf{John Edwards}, Assistant Professor of Computer Science, Idaho State University, {\bf (385) 207-8331} \\
+\item[]\textbf{Ben Nickell}, High Performance Computing Systems Administrator, Idaho National Laboratory, {\bf (208) 317-4259}
+\end{tightemize}
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
